@@ -4,12 +4,9 @@ import { HomeComponent } from './home.component';
 import {Routes,RouterModule} from '@angular/router';
 
 export const homeRoutes: Routes =[
-  {
-    path:'',component:HomeComponent
-  },
-  {
-    path:'home',component:HomeComponent
-  }
+  { path: '', component: HomeComponent },
+   //localhost:4200/main/home/index
+  { path: 'index', component: HomeComponent }
 ]
 
 @NgModule({

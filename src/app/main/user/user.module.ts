@@ -5,11 +5,8 @@ import { NgModule } from '@angular/core';
 import {Routes,RouterModule} from '@angular/router';
 
 const userRoutes: Routes = [
-  //localhost:4200/main/user
- { path: '', component: UserComponent },
-  //localhost:4200/main/user/index
- { path: 'index', component: UserComponent }
-
+  { path: '', component: UserComponent },
+  { path: 'index', component: UserComponent }
 ]
 
 @NgModule({
